@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main_div">
+
+        <div id="clock_icon"><img src="img/timer_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></div>
+<div id="timer">
+    <div>
+        <span id="hours2">0</span>
+        <span id="hours1">0</span>
+    </div>
+    <div>
+        <span id="min2">0</span>
+        <span id="min1">0</span>
+
+    </div>
+    <div>
+        <span id="sec2">0</span>
+        <span id="sec1">0</span>
+
+    </div>
+    
+</div>
+<div id="timer_button">
+    <button onclick="startTimer()" id="start_button"><img src="img/play_arrow_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+    <button onclick="stopTimer()" id="stop_button">pause</button>
+    <button onclick="clearAll()" id="clear_button"><img src="img/restart_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+</div>
+
+</div>
+    <script src="app.js"></script>
+</body>
+</html>

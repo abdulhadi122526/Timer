@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/sonja-langford-eIkbSc3SDtI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main_div{
+    border: 1px solid red;
+    position: absolute;
+    top: 20%;
+    left: 63%;
+    width: 30%;
+    height: 70%;
+    border-radius:50px ;
+    border-color: white;
+    background-color: transparent;
+    background-size: cover;
+    box-shadow: 6px 9px 14px 0px rgba(0,0,0,0.77);
+    -webkit-box-shadow: 6px 9px 14px 0px rgba(0,0,0,0.77);
+    -moz-box-shadow: 6px 9px 14px 0px rgba(0,0,0,0.77);
+    
+}
+#main_div>#clock_icon{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    left: 40%;
+    top: 20%;
+    text-shadow: 5px 3px 4px rgba(0,0,0,0.64);  
+    color: rgba(71, 31, 48, 0.603);
+    
+}
+#clock_icon>img{
+    width: 100%;
+}
+#timer{
+    position: relative;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+span{
+    font-family: Brush Script MT;
+    font-size: 70px;
+    text-shadow: 5px 3px 4px rgba(0,0,0,0.64);  
+    color: white;   
+}
+#timer_button{
+    position: relative;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    gap: 3%;
+}
+#stop_button{
+    width: 29%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: 1px solid rgb(74, 96, 121);
+    height: 30px;
+    border-radius: 20px;
+    background-color: #00adad;
+    color: white;
+}
+#stop_button:hover{
+    box-shadow:  0px 10px 13px -7px #000000;
+    cursor: pointer;   
+}
+#clear_button{
+    width: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: 1px solid rgb(74, 96, 121);
+    height: 30px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    
+}
+#clear_button:hover{
+    box-shadow:  0px 10px 13px -7px #000000;
+    cursor: pointer;   
+}
+#start_button{
+    width: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: 1px solid rgb(74, 96, 121);
+    height: 30px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    
+}
+#start_button:hover{
+    box-shadow:  0px 10px 13px -7px #000000;
+    cursor: pointer;   
+}
